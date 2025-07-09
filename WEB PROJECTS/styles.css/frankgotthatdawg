@@ -1,0 +1,87 @@
+p,
+li { color: purple;
+}
+.special {
+  color: rgb(96, 65, 8);
+  font-weight: bold;
+}
+li em {
+  color: rgb(19, 3, 36);
+}
+h2 + p {
+  font-size: 200%;
+}
+a:link {
+  color: rgb(245, 4, 149);
+}
+
+a:visited {
+  color: rgb(32, 80, 32);
+}
+a:hover {
+  text-decoration: none;
+}
+/* Global reset and font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1a1a40, #5c2a9d, #ff4ecb);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: white;
+}
+
+/* Smooth gradient animation */
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Header styles */
+h1 {
+  font-size: 3em;
+  color: #ffd6f6; /* light pink */
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #e0b3ff; /* soft purple */
+  margin-top: 1.5em;
+}
+
+/* Button style */
+button {
+  background-color: #ff4ecb; /* vibrant pink */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #c43c9e;
+}
+
+/* Card / Section style */
+.section {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
